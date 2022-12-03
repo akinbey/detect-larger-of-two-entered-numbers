@@ -1,0 +1,13 @@
+public class MainActivity extends AppCompatActivity {
+ EditText editText_sayi1;
+ EditText editText_sayi2;
+ Button button;
+ @Override
+ protected void onCreate(Bundle savedInstanceState) {
+ super.onCreate(savedInstanceState);
+ setContentView(R.layout.activity_main);
+ button = findViewById(R.id.button_Kontrol);
+ editText_sayi1 = findViewById(R.id.editTextNumber_Sayi1);
+ editText_sayi2 = findViewById(R.id.editTextNumber_Sayi2);
+ }
+}
